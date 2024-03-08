@@ -6,3 +6,28 @@
 //
 
 #include "BooleanLetter.hpp"
+
+// ----------------------------------------------------------------------------
+
+BooleanLetter::BooleanLetter( char c )
+:
+letter( string(1, c) ),
+notLetter( letter + "'" )
+{
+}
+
+// ----------------------------------------------------------------------------
+
+string BooleanLetter::GetLetter() const
+{
+    return letter;
+}
+
+// ----------------------------------------------------------------------------
+
+string BooleanLetter::GetNotLetter() const
+{
+    return notLetter;
+}
+
+// ----------------------------------------------------------------------------

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77F0E1A32B9145900024CB5A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E1A22B9145900024CB5A /* main.cpp */; };
+		77C6AA7D2B9BA10E0054A3D3 /* BooleanLetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C6AA7B2B9BA10E0054A3D3 /* BooleanLetter.cpp */; };
+		77E94D352B9A8272006B276C /* KMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E94D332B9A8272006B276C /* KMap.cpp */; };
+		77E94D372B9A84FF006B276C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E94D362B9A84FF006B276C /* main.cpp */; };
+		77E94D3A2B9AA354006B276C /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77E94D382B9AA354006B276C /* utility.cpp */; };
+		77F0E1A32B9145900024CB5A /* KMapGN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F0E1A22B9145900024CB5A /* KMapGN.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		77C6AA7B2B9BA10E0054A3D3 /* BooleanLetter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BooleanLetter.cpp; sourceTree = "<group>"; };
+		77C6AA7C2B9BA10E0054A3D3 /* BooleanLetter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BooleanLetter.hpp; sourceTree = "<group>"; };
+		77E94D332B9A8272006B276C /* KMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KMap.cpp; sourceTree = "<group>"; };
+		77E94D342B9A8272006B276C /* KMap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KMap.hpp; sourceTree = "<group>"; };
+		77E94D362B9A84FF006B276C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77E94D382B9AA354006B276C /* utility.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utility.cpp; sourceTree = "<group>"; };
+		77E94D392B9AA354006B276C /* utility.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = utility.hpp; sourceTree = "<group>"; };
 		77F0E19F2B9145900024CB5A /* COSC2425_PS1_KMap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = COSC2425_PS1_KMap; sourceTree = BUILT_PRODUCTS_DIR; };
-		77F0E1A22B9145900024CB5A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77F0E1A22B9145900024CB5A /* KMapGN.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KMapGN.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +68,14 @@
 		77F0E1A12B9145900024CB5A /* COSC2425_PS1_KMap */ = {
 			isa = PBXGroup;
 			children = (
-				77F0E1A22B9145900024CB5A /* main.cpp */,
+				77F0E1A22B9145900024CB5A /* KMapGN.cpp */,
+				77E94D332B9A8272006B276C /* KMap.cpp */,
+				77E94D342B9A8272006B276C /* KMap.hpp */,
+				77E94D362B9A84FF006B276C /* main.cpp */,
+				77E94D382B9AA354006B276C /* utility.cpp */,
+				77E94D392B9AA354006B276C /* utility.hpp */,
+				77C6AA7B2B9BA10E0054A3D3 /* BooleanLetter.cpp */,
+				77C6AA7C2B9BA10E0054A3D3 /* BooleanLetter.hpp */,
 			);
 			path = COSC2425_PS1_KMap;
 			sourceTree = "<group>";
@@ -119,7 +137,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77F0E1A32B9145900024CB5A /* main.cpp in Sources */,
+				77E94D3A2B9AA354006B276C /* utility.cpp in Sources */,
+				77E94D352B9A8272006B276C /* KMap.cpp in Sources */,
+				77C6AA7D2B9BA10E0054A3D3 /* BooleanLetter.cpp in Sources */,
+				77F0E1A32B9145900024CB5A /* KMapGN.cpp in Sources */,
+				77E94D372B9A84FF006B276C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
