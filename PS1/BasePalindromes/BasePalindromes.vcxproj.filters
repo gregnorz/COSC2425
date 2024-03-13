@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BasePalindromes.cpp">
+    <ClCompile Include="BasePalindromesGN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
