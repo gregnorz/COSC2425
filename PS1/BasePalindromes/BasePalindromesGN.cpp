@@ -75,14 +75,10 @@ int main()
 	do
 	{
 		unsigned int decimalNumber = 0;
-		cout << "Enter a number [1 - 1000000]: ";
-		cin >> decimalNumber;
-
-		// Basic error checking where we bail out instead of trying to loop. A bit lazy, I know.
-		if ( decimalNumber < 1 || decimalNumber > 1000000 )
+		while ( decimalNumber < 1 || decimalNumber > 1000000 )
 		{
-			cerr << "Try again! Please enter a number between 1 and 1000000." << endl;
-			return 1;
+			cout << "Enter a number [1 - 1000000]: ";
+			cin >> decimalNumber;
 		}
 
 		stringstream basesStream;
