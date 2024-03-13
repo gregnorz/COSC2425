@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EvilNumbers.cpp">
+    <ClCompile Include="EvilNosGN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
